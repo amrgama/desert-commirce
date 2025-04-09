@@ -1,0 +1,689 @@
+body{
+    background-color: #eee;
+}
+
+.line{
+    width: 20%;
+    height: 3px;
+    position: absolute;
+    left: 40%;
+    margin: 0;
+    background-color: #03001e;
+}
+
+.whatsicon{
+    position: fixed;
+    z-index: 9999;
+    top:calc(100vh - 72px);
+    display: flex;
+    background-color: #25d366;
+    border-radius:  10px ;
+    -webkit-border-radius:  10px ;
+    -moz-border-radius:  10px ;
+    -ms-border-radius:  10px ;
+    -o-border-radius:  10px ;
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.whatsicon svg{
+    padding: 4px;
+}
+
+.whatsicon p{
+    flex: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.navbar{
+    background-color: #03001e;
+}
+
+.navbar .navbar-brand div{
+    color: #d86a8d;
+    font-size:28px;
+    font-weight: bold;
+}
+
+.navbar .navbar-brand span{
+    color: #d86a8d;
+    font-weight: normal;
+    font-size: 40px;
+    margin-top: -20px;
+    position: relative;
+    top: -6px;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: #fdeff6;
+}
+
+.navbar .navbar-nav .hvr-underline-from-center:before{
+    background: #d86a8d;
+}
+
+
+.navbar .navbar-nav .nav-link.active{
+    color: #d86a8d;
+}
+
+
+.navbar .navbar-nav .nav-link:hover{
+    color: #d86a8d;
+}
+
+.navbar .collapse .btn{
+    color: #fdeff6;
+    background-color: #d86a8d;
+    flex: none;
+    margin-left: 8px;
+}
+
+.navbar .collapse .btn:hover{
+    color:#d86a8d;
+    background-color:#fdeff6;
+}
+
+.sign-up{
+    padding: 6px;
+    margin-left: 5px;
+    text-decoration: none ;
+    color: #d86a8d;
+    background-color: white;
+}
+.sign-up:hover{
+    color: white;
+    background-color: #d86a8d;
+}
+
+.navbar .navbar-toggler{
+    color: #d86a8d;
+}
+
+.scroll-nav-body{
+    background-color: rgb(13, 1, 50);
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.scroll-nav-body .scroll-nav-item{
+    background-color: #d86a8d;
+    color: white;
+    margin: 10px 0 10px 10px;
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    flex: none;
+    font-weight: bold;
+}
+
+.scroll-nav-body .scroll-nav-item:hover{
+    background-color: #d86a8d;
+}
+
+
+.intro{
+    height:calc(100vh - 72px);   
+    background-color: #b2b2d7;
+    background-image: url("../imgs/bg-1.png");
+    background-repeat: no-repeat;
+}
+
+.intro h1{
+    color: #2c3333;
+    margin-bottom: 12px;
+}
+
+.intro p{
+    color: #2c3333;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+.intro .button-27{
+    appearance: none;
+background-color: #333333;
+border: 2px solid #1A1A1A;
+border-radius: 15px;
+box-sizing: border-box;
+color: #d86a8d;
+cursor: pointer;
+display: inline-block;
+font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+font-size: 22px;
+font-weight: 600;
+line-height: normal;
+margin: 0;
+min-height: 60px;
+min-width: 0;
+outline: none;
+padding: 16px 24px;
+text-align: center;
+text-decoration: none;
+transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+width: 100%;
+will-change: transform;
+}
+
+.button-27:disabled {
+pointer-events: none;
+}
+
+.button-27:hover {
+box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+transform: translateY(-2px);
+background-color: black;
+}
+
+.button-27:active {
+box-shadow: none;
+transform: translateY(0);
+}
+
+.feature {
+    background-image: url("../imgs/feature.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+}
+
+.feature button{
+    margin: auto;
+    margin-top: 400px;
+    margin-bottom: 40px;
+    background-color: #d86a8d;
+    color: white;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.feature .btn:hover{
+    background-color: white;
+    color: #d86a8d;
+}
+
+.collection{
+    margin-top: 50px;
+    background-color: #faf6f0;
+}
+
+.collection h2{
+    padding: 60px 0 40px 0;
+} 
+.collection .card{
+    margin-bottom: 40px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.collection .card:hover{
+    transform: scale(1.1);
+}
+
+.collection .card img{
+    margin-top: 15px;
+}
+
+.collection .card button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #d86a8d;
+    color: white;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.collection .card .btn:hover{
+    background-color: #eee;
+    color: #d86a8d;
+}
+
+.collection .collection-end-bottom{
+    border: 0;
+    background-color: #d86a8d;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 40px;
+    margin-bottom: 50px;
+}
+
+.collection .hvr-sweep-to-left:before{
+    background: white;
+}
+
+.collection .hvr-sweep-to-left:hover{
+    color: #d86a8d;
+}
+
+.client {
+    width: 100%;
+    height: 100%;
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.carousel-icon i {
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.carousel-item i {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.t-card {
+  padding: 1.8125rem 1.125rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1.25rem;
+  color: #fff;
+  height: auto;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 1.5625rem solid transparent;
+  border-right: 1.5625rem solid transparent;
+  border-top: 1.25rem solid rgba(0, 0, 0, 0.5);
+}
+
+.top-seller h2{
+    padding: 60px 0 40px 0;
+} 
+
+.top-seller .card{
+    margin-bottom: 40px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.top-seller .card:hover{
+    transform: scale(1.1);
+}
+
+
+.top-seller .card button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #d86a8d;
+    color: white;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.top-seller .card .btn:hover{
+    background-color: #eee;
+    color: #d86a8d;
+}
+
+.our-team{
+    background-color: #fbf4ec;
+    margin: 20px 0 40px;
+}
+
+.our-team h3{
+    font-size: 46px;
+    font-family: SignPainter-HouseScript;
+    letter-spacing: -0.79px;
+    padding: 40px 0 70px;
+}
+
+.our-team p{
+    font-family: Lato;
+    line-height: 34px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #1D1D1B;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    margin: 20px 0 0 0;
+}
+
+.our-team span{
+    color: rgb(79, 84, 105);
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 300;
+    line-height: 37px;
+    padding: 6px 0 25px;
+}
+
+
+
+.footer{
+    background-color: #03001e;
+    color: white;
+}
+
+.footer h2,
+.footer .copyright{
+    color: #d86a8d;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    padding-top: 7px;
+}
+
+.footer a:hover{
+    color: #d86a8d;
+}
+
+.footer .contact ul svg{
+    width: 20px;
+    height: 20px;
+}
+
+.footer .facebook{
+    background-color:#1877f2;
+
+}
+
+.footer .instagram{
+    background-image: linear-gradient(#cd486b,#fbad50,#fccc63,#fccc63);
+    color: white;
+}
+
+.footer .youtube{
+    background-color: #ff0000;
+}
+
+/*=================================================================Start sign up==========================================================================*/
+/*Start log in*/
+.contact-us{
+    min-height: 500px;}
+
+ .contact-us .fields{
+    background: rgb(39 36 36 / 39%);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 800px;
+    border: black 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;}
+
+ .contact-us h1{
+color: white; 
+}
+.contact-us .fields form{
+    width: 50%;
+    margin: auto;
+}
+.contact-us .fields .loged-btn{
+    background-color: #d86a8d;
+    color: white;
+    width: 200px;
+    transition:all 0.3s ease ;
+}
+.contact-us .fields .loged-btn:hover{
+    background-color: #fff;
+    color: #d86a8d;
+}
+
+.fa-4x{
+    color: white;
+}
+.contact-us .fields .typpe .l1{
+    display: block;
+    font-size: 30px;
+    color: #fff;
+}
+.contact-us .fields .typpe{
+    margin-bottom: 10px;
+}
+
+.another p{
+    font-size: 20px;
+    color: #ffff;
+    display: inline-block;
+    margin-left: 24px;
+}
+
+.another{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 5px;
+    text-align: end;
+
+}
+.another .facelogo
+{
+    color: rgb(30, 30, 235);
+    margin-right: 5px;
+}
+.another img{
+    margin-bottom: 3px;
+}
+.contact-us input[type="password"],
+.contact-us input[type="email"],
+.contact-us input[type="text"]{
+    background: rgb(255 255 255 / 67%);
+    color: black;
+    border: none;
+    margin-bottom: 10px;
+    border: black 1px solid;
+}
+.contact-us .fields .typpe input[type="radio"]{
+    margin-right: 10px;
+    margin-top: 17px;
+ }
+
+ 
+.contact-us .dd{
+    margin-left: 190px;
+}
+
+
+.contact-us .fields .log{
+    color: aliceblue;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.contact-us .fields .log p{
+    margin-left: 10px;
+    display: inline-block;
+}
+
+/*=================================================================end sign up==========================================================================*/
+
+/*=================================================================Start Login==========================================================================*/
+/*start signed*/
+.signed{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.signed .container{
+    border: #d86a8d 2px solid;
+    border-radius: 25px;
+    width: 445px;
+    padding: 35px;
+}
+.signed form{
+    display: flex;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+    margin-top: 36px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.signed .signed-btn{
+    background-color: #d86a8d;
+    color: #fff;
+    width: 40%;
+    margin: auto;
+    transition: all 0.3s ease;
+}
+.signed .signed-btn:hover{
+    background-color: #fff;
+    color: #d86a8d;
+}
+.signed .si{
+    display: inline-block;
+}
+.chch:checked + label{
+    color: red;
+}
+.signed .ss{
+    font-size: 15px;
+    margin-top: 16px;
+}
+.signed label{
+    margin-bottom: 8px;
+}
+/*End signed*/
+/*=================================================================End Login==========================================================================*/
+
+/** product **/
+
+/*productpage*/
+
+.breadcrumb 
+{
+    font-size: large;
+    font-weight: 400;
+    margin:30px 130px 20px 0;
+}
+
+.breadcrumb .breadcrumb-item a
+{
+    color: #d86a8d;
+}
+.container-productpage{
+    margin-top: 50px;
+}
+
+.container-productpage .container .row .product
+{
+    width: 550px;
+    margin: 20px 0 70px 0;
+}
+
+
+.carousel-indicators 
+{
+    
+    bottom: -170px;
+}
+
+.container-productpage .container .row .product .carousel-indicators button
+{
+    height: 100px;
+    width: 80px;
+}
+.container-productpage .container .row .productinfo
+{
+    margin-right: auto;
+    margin-right: 10px;
+    color: #03001e;
+    margin-bottom: 100px;
+}
+
+.container-productpage .container .row .productinfo a
+{
+    color:#d86a8d;
+    font-weight: bolder;
+}
+
+.container-productpage .container .row .productinfo .info
+{
+    color: #03001e;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.container-productpage .container .row .productinfo .size ul , .container-productpage .container .row .productinfo .with ul
+{
+    list-style: none;
+    font-weight: bold;
+    font-size:15px;
+}
+.container-productpage .container .row .productinfo .with p , .container-productpage .container .row .productinfo .size p
+{
+    font-weight: bold;
+    font-size:15px ;
+}
+.container-productpage .container .row .productinfo .btn
+{
+    width: 100%;
+    height: 40px;
+}
+
+.opinion
+{
+    width: 100%;
+    height: 850px;
+    background-color: #ebd2e4;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.opinion .container
+{
+    background-color: #fff;
+    width: 600px;
+    margin-top: 50px; 
+    height: 750px;
+}
+
+.opinion .container form
+{
+    margin-top: 70px;
+}
+.opinion .container form button
+{
+ width: 55%;
+ margin-top: 35px;
+}
+.opinion .container h2
+{
+    margin-top: 30px;
+}
+
+@media  (max-width: 768px) {
+    .container-productpage .container .row .productinfo
+        {
+            margin-right: auto;
+        }
+}
+/** end product page**/
+/**end product**/
+
+
+
+
+
+
+
+
+
+

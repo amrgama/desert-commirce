@@ -1,0 +1,98 @@
+/*start products*/
+.card
+{
+    margin-bottom: 30px;
+}
+/*end products*/
+
+/*productpage*/
+
+.breadcrumb 
+{
+    font-size: large;
+    font-weight: 400;
+    margin:30px 130px 20px 0;
+}
+
+.breadcrumb .breadcrumb-item a
+{
+    color: #ec38bc;
+}
+
+.container .row .product
+{
+    width: 550px;
+    height: 550px;
+    margin: 20px 0 70px 0;
+}
+.container .row .productinfo
+{
+    margin-right: 190px;
+    color: #03001e;
+    margin-bottom: 100px;
+}
+
+.container .row .productinfo a
+{
+    color:#ec38bc;
+    font-weight: bolder;
+}
+
+.container .row .productinfo .info
+{
+    color: #03001e;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.container .row .productinfo .size ul ,.container .row .productinfo .with ul
+{
+    list-style: none;
+    font-weight: bold;
+    font-size:15px;
+}
+.container .row .productinfo .with p ,.container .row .productinfo .size p
+{
+    font-weight: bold;
+    font-size:15px ;
+}
+.container .row .productinfo .btn
+{
+    width: 100%;
+    height: 40px;
+}
+
+.opinion
+{
+    width: 100%;
+    height: 850px;
+    background-color: #ebd2e4;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.opinion .container
+{
+    background-color: #fff;
+    width: 600px;
+    margin-top: 50px; 
+    height: 750px;
+}
+
+.opinion .container form
+{
+    margin-top: 70px;
+}
+.opinion .container form button
+{
+    width: 55%;
+    margin-top: 35px;
+}
+.opinion .container h2
+{
+    margin-top: 30px;
+}
+/** end product page**/
